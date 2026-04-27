@@ -65,13 +65,13 @@ python fim.py <tryb> <katalog> [-b <plik_wzorca>]
 Tworzy plik wzorca z sumami kontrolnymi wszystkich plików w katalogu:
 
 ```bash
-python fim.py baseline "C:\Users\adamm\Documents\WaznyKatalog"
+python fim.py baseline "C:\Dane\WaznyKatalog"
 ```
 
 Z własną nazwą pliku wzorca:
 
 ```bash
-python fim.py baseline "C:\Users\adamm\Documents\WaznyKatalog" -b moj_wzorzec.json
+python fim.py baseline "C:\Dane\WaznyKatalog" -b moj_wzorzec.json
 ```
 
 **Linux / macOS:**
@@ -85,13 +85,13 @@ python3 fim.py baseline /etc/nginx -b nginx_baseline.json
 Porównuje aktualny stan katalogu z wcześniej utworzonym wzorcem:
 
 ```bash
-python fim.py monitor "C:\Users\adamm\Documents\WaznyKatalog"
+python fim.py monitor "C:\Dane\WaznyKatalog"
 ```
 
 Z własnym plikiem wzorca:
 
 ```bash
-python fim.py monitor "C:\Users\adamm\Documents\WaznyKatalog" -b moj_wzorzec.json
+python fim.py monitor "C:\Dane\WaznyKatalog" -b moj_wzorzec.json
 ```
 
 ## Format pliku wzorca
@@ -101,7 +101,7 @@ Plik wzorca to standardowy JSON o następującej strukturze:
 ```json
 {
   "metadata": {
-    "root": "C:\\Users\\adamm\\Documents\\WaznyKatalog",
+    "root": "C:\\Dane\\WaznyKatalog",
     "created": "2026-04-27T18:30:00",
     "files_count": 42
   },
@@ -120,7 +120,7 @@ Plik wzorca to standardowy JSON o następującej strukturze:
 ## Przykładowy raport
 
 ```
-[INFO] Monitorowanie katalogu: C:\Users\adamm\Documents\WaznyKatalog
+[INFO] Monitorowanie katalogu: C:\Dane\WaznyKatalog
 [INFO] Wzorzec: baseline.json
 
 ========== RAPORT INTEGRALNOSCI ==========
