@@ -177,7 +177,3 @@ Skrypt został zaprojektowany tak, aby nie przerywał pracy przy typowych proble
 ## Licencja
 
 MIT — zobacz plik `LICENSE` (jeśli dołączony).
-
----
-
-**Autor:** *NikkO*
